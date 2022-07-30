@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, #33ccff 0%, #ff99cc 100%) no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    /* To do : Add a after affecr to turn its opacity to max in js*/
+    font-size: 1.6rem;
+}
+
+button{
+    /* To do : Add a after affect to change its color to specified one  in js */
+    border-radius: 5px;
+    margin:5px;
+    padding: 2.5px;
+    background-color: white;
+    border: 1px white solid;
+}
+.grid-container{
+    display: grid;
+    z-index: 100;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+
