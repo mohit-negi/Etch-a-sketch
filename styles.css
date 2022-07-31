@@ -34,6 +34,42 @@ button{
     border-radius: 20px;
     margin: 20px 0;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    padding: 10px;
+    padding: 20px;
 }
+.navbar{
+    display: flex;
+    margin: 10px 0;
+}
+.navbar .red,.navbar .blue,.navbar .green,.navbar .rgb,.navbar .reset.click{
+    transition: 500ms;
+}
+.navbar .red.click{
+    background-color: red;
+    color: white;
+    border: 1px white solid;
+}
+.navbar .blue.click{
+    background-color: blue;
+    color: white;
+    border: 1px white solid;
+}
+.navbar .green.click{
+    background-color: green;
+    color: white;
+    border: 1px white solid;
+}
+.navbar .rgb.click{
+    background: red;
+    color: white;
+    border: 1px white solid;
+}
+.navbar .reset.click{
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+}
+.grid .activeReset{
+    background-color: white;
+    border:1px white solid;
 
+}
