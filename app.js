@@ -12,7 +12,9 @@ function createGrid(rows,columns)
             grid.classList.add('grid');
         }
 }
-createGrid(25,25);
+const body = document.querySelector('body');
+
+createGrid(32,32);
 
 // Adding different button and adding mouseover functionality
 // to change the color when hovered over the grids
@@ -131,3 +133,10 @@ function colorReset()
     navbar.appendChild(resetButton);
 }
 colorReset();
+/*
+function navBar()
+{
+    document.querySelector('.nav-button').addEventListener('click', function() {
+    this.parentNode.parentNode.classList.toggle('closed'); })
+};
+*/
